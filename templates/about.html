@@ -1,0 +1,59 @@
+{% extends "base.html" %}
+{% block  aboutactive %}active{% endblock aboutactive%}
+{% block title %}About{% endblock title %}
+
+{% block body %}
+ 
+  <div class="container my-3">
+    <h4 class="text-center my-3 py-3">About me</h4>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card" style="width: 18rem;">
+          <img src="https://source.unsplash.com/500x300/?code,python,apple" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Designer</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card" style="width: 18rem;">
+          <img src="https://source.unsplash.com/500x300/?programe,html" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Devloper</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card" style="width: 18rem;">
+          <img src="https://source.unsplash.com/500x300/?css,JavaScript" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Entertainer</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <h2 class="my-4">My coding video</h2>
+    <div class="embed-responsive embed-responsive-21by9">
+      <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/tgbNymZ7vqY" height="500"></iframe>
+    </div>
+  </div>
+  <div>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum ea, nulla laboriosam deleniti autem fugit voluptate
+      maxime, cupiditate accusamus necessitatibus optio laudantium distinctio nesciunt harum. Saepe ducimus laudantium
+      porro corporis.</p>
+  </div>
+  {% endblock body %}
